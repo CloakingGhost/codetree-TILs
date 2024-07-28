@@ -6,6 +6,6 @@ public class Main {
         int tmp = a;
         a= b;
         b=tmp;
-        System.out.printf("%d\b%d",a,b);
+        System.out.printf("%d\n%d",a,b);
     }
 }
