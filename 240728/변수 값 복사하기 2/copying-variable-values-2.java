@@ -3,6 +3,6 @@ public class Main {
         int a = 5, b = 6, c = 7;
 
         a = b = c;
-        System.out.printlf("%d %d %d",a,b,c);
+        System.out.printf("%d %d %d",a,b,c);
     }
 }
