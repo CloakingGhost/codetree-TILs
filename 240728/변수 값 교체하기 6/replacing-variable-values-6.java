@@ -3,7 +3,7 @@ public class Main {
         swap(2,5);
 
     }
-    private static int[] swap(int a, int b){
+    private static void swap(int a, int b){
         int tmp = a;
         a= b;
         b= tmp;
