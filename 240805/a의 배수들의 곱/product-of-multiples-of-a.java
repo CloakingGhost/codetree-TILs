@@ -5,10 +5,12 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int result = 1;
-        for(int i = a; i <= b; i++){
+        for(int i = 1; i <= b; i++){
             if(i % a == 0){
-                result *= a;
+
+                result *= i;
             }
         }
+        System.out.println(result);
     }
 }
