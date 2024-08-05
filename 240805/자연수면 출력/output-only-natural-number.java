@@ -5,9 +5,9 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 if(a>0){
-        for(int i = 0; i <= b; i++){
+        for(int i = 0; i < b; i++){
 
-            System.out.printf("%d ",a);
+            System.out.printf("%d",a);
 
         }}
     }
