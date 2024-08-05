@@ -8,7 +8,7 @@ public class Main {
             arr[i] = sc.nextInt();
         }
         for(int n : arr){
-            if(n % 3 == 0){
+            if(n % 3 == 0 && n % 2 == 1){
                 System.out.println(n);
             }
         }
