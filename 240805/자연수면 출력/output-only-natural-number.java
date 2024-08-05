@@ -9,6 +9,6 @@ if(a>0){
 
             System.out.printf("%d",a);
 
-        }}
+        }}else{System.out.print(0)}
     }
 }
