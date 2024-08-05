@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("%s", new java.util.Scanner(System.in).nextInt() >= 3000 ? "book" : "mask");
+        int n = new java.util.Scanner(System.in).nextInt();
+        System.out.printf("%s", n < 1000 ? "no" : n < 3000 : "mask" : "book");
     }
 }
