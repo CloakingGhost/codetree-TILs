@@ -3,7 +3,7 @@ public class Main {
         int n = new java.util.Scanner(System.in).nextInt();
 
         int i = 0;
-        while(i < 5){
+        while(i < n){
             System.out.println("*");
             i++;
         }
