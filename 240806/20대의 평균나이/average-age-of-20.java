@@ -6,7 +6,8 @@ public class Main {
         int inputCount = 0;
         while(sc.hasNextInt()){
             int num = sc.nextInt();
-            if(num >= 30) break;
+
+            if(num >= 20 && num < 30) break;
             sumAge += num;
             inputCount++;
         }        
